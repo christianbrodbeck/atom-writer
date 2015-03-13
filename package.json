@@ -1,10 +1,10 @@
 {
-  "name": "Writer",
+  "name": "Glitter",
   "theme": "syntax",
   "version": "0.1.0",
   "private": false,
   "description": "A nice, readable markdown writing environment for Atom.",
-  "repository": "https://github.com/cjoh/atom-writer",
+  "repository": "https://github.com/nosovae-dev/atom-writer",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

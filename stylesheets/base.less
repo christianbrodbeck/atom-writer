@@ -40,8 +40,9 @@
   }
 
   .selection .region {
-    background-color: @blue;
-    color: @base03;
+    background-color: @material-blue-100;
+    color: @base03 !important;
+    text-color: @base03 !important
   }
 
   .line-number.cursor-line-no-selection {
@@ -55,12 +56,19 @@
 }
 
 .comment {
-  color: @base01;
+//  color: @base01;
+  color: rgba(88, 110, 117, 0.36);
   font-style: italic;
 }
 
+.comment {
+  .entity {
+    color: rgba(108, 131, 138, 0.64);
+  }
+}
+
 .entity {
-  color: @red;
+  color: @material-grey-900;
 }
 
 .keyword {
@@ -99,6 +107,12 @@
 
 .invalid.illegal {
   color: @red;
+}
+
+.class {
+  .modifier {
+    color: @material-light-blue-600;
+  }
 }
 
 .string {
