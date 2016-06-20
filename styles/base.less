@@ -10,6 +10,14 @@ atom-text-editor& {
   color: @base0;
 }
 
+.item-views {
+  background: @base03 !important;
+}
+
+[data-zen="true"] atom-pane-container atom-pane .item-views {
+   background: @base03 !important;
+}
+
 .heading {
   color: @blue;
   font-weight: 900;
@@ -130,5 +138,15 @@ atom-text-editor, :host {
     .string.regexp.arbitrary-repitition {
       color: @red;
     }
+  }
+}
+
+.markup {
+  &.bold {
+    font-weight: bold;
+  }
+
+  &.italic {
+    font-style: italic;
   }
 }
