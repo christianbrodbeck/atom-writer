@@ -4,7 +4,7 @@
   "version": "0.5.1",
   "private": false,
   "description": "A nice, readable markdown writing environment for Atom.",
-  "repository": "https://github.com/nosovae-dev/atom-writer",
+  "repository": "https://github.com/nosovae-dev/atom-glitter",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
